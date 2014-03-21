@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock, Paper, Scissors</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="rps.js"></script>
+        <link rel="stylesheet" type="text/css" href="rps.css">
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAADPABc2QAD///8Au7u/AGBgYwA2NjYAVF+RAHN6mQDIyc8AN0FuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABERAAAAMzMxMzAQRERERBGZkRBmVWZWYRERAFVFVUVREREQRERERBEzMBAAADMzMRmREAAAMzMzEREACKqoozMzMACiqqJ4MzMwAIiqeIczMzAAd3eHeDMAAACKqoqjMwMAAACIiDMzAAAAAAAAAAAAAAD//wAA4AMAAOABAAAAAQAAAAMAAAABAAAAAQAA4AEAAOADAACAAwAAAAMAAAADAAAAAwAAAAcAAMAPAADgHwAA" rel="icon" type="image/x-icon" />
+
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+            <div id="buttons">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+            <div id="results">
+                <div id="player">
+                    <h3>Player</h3>
+
+                    <div id="playerRPS"></div>
+                    <p>You throw <span id="playerThrow">_______</span>
+
+                    </p>
+                </div>
+                <div id="computer">
+                    <h3>RPSBot</h3>
+
+                    <div id="computerRPS"></div>
+                    <p>RPSBot throws <span id="RPSthrow">_______</span>
+
+                    </p>
+                </div>
+            </div>
+            <div id="proclamation">
+                <h3 id="result">Good luck!</h3>
+
+            </div>
+        </div>
+    </body>
+</html>
