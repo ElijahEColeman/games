@@ -1,0 +1,43 @@
+.row {
+    position: relative;
+    display: table-row-group;
+}
+.square {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width:40px;
+    height:40px;
+    border:5px;
+    border-color: silver;
+    border-style: outset;
+    padding:0;
+    margin: 0;
+    background: -webkit-linear-gradient(left top, darkblue, slateblue);
+    background: -o-linear-gradient(bottom right, darkblue, slateblue);
+    background: -moz-linear-gradient(bottom right, darkblue, slateblue);
+    background: linear-gradient(bottom right, darkblue, slateblue);
+}
+.light {
+    position:relative;
+    top:5px;
+    left:5px;
+    width:20px;
+    height:20px;
+    border:5px;
+    border-radius:20px;
+    border-color: lightgrey;
+    border-style: outset;
+}
+.off {
+    background: -webkit-radial-gradient(goldenrod 20%, darkgoldenrod 40%);
+    background: -o-radial-gradient(goldenrod 20%, darkgoldenrod 40%);
+    background: -moz-radial-gradient(goldenrod 20%, darkgoldenrod 40%);
+    background: radial-gradient(goldenrod 20%, darkgoldenrod 40%);
+}
+.on {
+    background: -webkit-radial-gradient(yellow 10%, gold 60%, goldenrod 30%);
+    background: -o-radial-gradient(yellow 10%, gold 60%, goldenrod 30%);
+    background: -moz-radial-gradient(yellow 10%, gold 60%, goldenrod 30%);
+    background: radial-gradient(yellow 10%, gold 60%, goldenrod 30%);
+}
