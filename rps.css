@@ -1,0 +1,71 @@
+h3, p {
+    text-align: center;
+}
+#results {
+    height: 200px;
+}
+#player {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width:315px;
+}
+#computer {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    width:315px;
+}
+#proclamation {
+    display:block;
+    padding-top: 30px;
+    width: 616px;
+}
+.computer_scissors {
+    width:308px;
+    height:147px;
+    background-position:-26px -26px;
+    background-repeat:no-repeat;
+}
+.computer_paper {
+    width:308px;
+    height:147px;
+    background-position:-26px -200px;
+    background-repeat:no-repeat;
+}
+.computer_rock {
+    width:308px;
+    height:147px;
+    background-position:-26px -364px;
+    background-repeat:no-repeat;
+}
+.computer_scissors, .computer_paper, .computer_rock {
+    background-image:url(http://media.al.com/entertainment_impact/photo/rockpaperscissorsjpg-fc811f0cef10a4d4.jpg);
+}
+.player_scissors {
+    width:308px;
+    height:147px;
+    background-position:-26px -26px;
+    background-repeat:no-repeat;
+}
+.player_paper {
+    width:308px;
+    height:147px;
+    background-position:-26px -200px;
+    background-repeat:no-repeat;
+}
+.player_rock {
+    width:308px;
+    height:147px;
+    background-position:-26px -364px;
+    background-repeat:no-repeat;
+}
+.player_scissors, .player_paper, .player_rock {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph;
+    filter: fliph;
+    background-image:url(http://media.al.com/entertainment_impact/photo/rockpaperscissorsjpg-fc811f0cef10a4d4.jpg);
+}
